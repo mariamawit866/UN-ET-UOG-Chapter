@@ -33,9 +33,9 @@ const Header = () => {
       {/* Desktop Navigation */}
       <nav className="hidden md:flex">
         <ul className="flex space-x-6 mr-10 text-blue-900">
-          <li><a href="#about" className="hover:text-blue-500 font-bold">About Us</a></li>
-          <li><a href="#teams" className="hover:text-blue-500 font-bold">Teams</a></li>
-          <li><a href="#events" className="hover:text-blue-500 font-bold">Events</a></li>
+          <li><a href="/about" className="hover:text-blue-500 font-bold">About Us</a></li>
+          <li><a href="/teams" className="hover:text-blue-500 font-bold">Teams</a></li>
+          <li><a href="/events" className="hover:text-blue-500 font-bold">Events</a></li>
           <li>
             <div className="relative">
               <button

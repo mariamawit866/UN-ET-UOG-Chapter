@@ -15,13 +15,13 @@ const HeroSection = () => {
       <div className="relative max-w-xl text-center md:text-left md:w-1/2 mb-4 md:mb-0">
         {/* Decorative Rocket Icon */}
         <FaRocket className="absolute top-80 right-10 text-red-600 text-3xl animate-spin" />
-        <div className="border-t-4 border-blue-600 w-32 mx-auto md:mx-0 mb-2"></div>
+        <div className="border-t-4 border-blue-400 w-24 mx-auto md:mx-0 mb-2"></div>
         <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
           Empower Your Future With
-          <span className="block text-blue-600">UN-ET UOG</span>
+          <span className="block text-blue-800">UN-ET UOG</span>
           <span className="block">Chapter</span>
         </h1>
-        <div className="border-b-4 border-blue-600 w-64  mx-auto md:mx-0 mt-2 mb-4"></div>
+            <div className="border-b-4 border-blue-400 w-80  mx-auto md:mx-0 mt-2 mb-4"></div>
         <p className="text-gray-600 text-lg mb-6">
           Join a vibrant community at the University of Gondar, dedicated to
           leadership, global awareness, and engagement among students.
@@ -54,7 +54,7 @@ const HeroSection = () => {
           </a>
         </div>
         {/* Framed Image on Upper Right */}
-        <div className="absolute top-[-50px] right-[-120px] hidden md:block border-4 border-blue-500 p-2 rounded-full shadow-lg">
+        <div className="absolute top-[-50px] right-[-120px] hidden md:block border-4 border-blue-300 p-2 rounded-full shadow-lg">
           <img src={frameImg} alt="Framed Content" className="w-40 h-52 object-cover rounded-full" />
         </div>
       </div>
