@@ -60,7 +60,7 @@ const Header = () => {
               )}
             </div>
           </li>
-          <li><a href="#getInvolved" className="hover:text-blue-500 font-bold">Get Involved</a></li>
+          <li><a href="/contact" className="hover:text-blue-500 font-bold">Contact Us</a></li>
         </ul>
       </nav>
 

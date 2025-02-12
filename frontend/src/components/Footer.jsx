@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { FaInstagram,  FaLinkedin, FaTelegram, FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -13,26 +13,28 @@ const Footer = () => {
           </div>
 
           {/* Navigation Links */}
-          <nav className="flex flex-wrap justify-center gap-4 md:gap-6 text-sm">
-            <a href="#" className="hover:text-gray-300">About Us</a>
-            <a href="#" className="hover:text-gray-300">Our Teams</a>
-            <a href="#" className="hover:text-gray-300">Events</a>
-            <a href="#" className="hover:text-gray-300">Join Us</a>
-            <a href="#" className="hover:text-gray-300">Contact Us</a>
-            <a href="#" className="hover:text-gray-300">Resources</a>
-            <a href="#" className="hover:text-gray-300">FAQ</a>
+          <nav className="flex flex-wrap justify-center gap-4 md:gap-6 text-,md">
+            <a href="/About" className="hover:text-gray-400">About Us</a>
+            <a href="/teams" className="hover:text-gray-400">Our Teams</a>
+            <a href="/event" className="hover:text-gray-400">Events</a>
+            <a href="" className="hover:text-gray-400">Join Us</a>
+            <a href="/contact" className="hover:text-gray-400">Contact Us</a>
+            <a href="#" className="hover:text-gray-400">Resources</a>
           </nav>
 
           {/* Social Icons */}
           <div className="flex gap-4">
-            <a href="#" className="bg-white text-[#002D62] p-2 rounded-full transition-transform hover:scale-110">
+            <a href="https://www.instagram.com/una.et.uog?utm_source=qr&igsh=MTh4Y202eDE0NnJn" className="bg-white text-[#002D62] p-2 rounded-full transition-transform hover:scale-110">
               <FaInstagram className="w-5 h-5" />
             </a>
-            <a href="#" className="bg-white text-[#002D62] p-2 rounded-full transition-transform hover:scale-110">
-              <FaFacebookF className="w-5 h-5" />
+            <a href="" className="bg-white text-[#002D62] p-2 rounded-full transition-transform hover:scale-110">
+              <FaTiktok className="w-5 h-5" />
             </a>
-            <a href="#" className="bg-white text-[#002D62] p-2 rounded-full transition-transform hover:scale-110">
-              <FaTwitter className="w-5 h-5" />
+            <a href="https://www.linkedin.com/company/united-nation-association-of-ethiopia-university-of-gondar-chapter/ " className="bg-white text-[#002D62] p-2 rounded-full transition-transform hover:scale-110">
+              <FaLinkedin className="w-5 h-5"/>
+            </a>
+            <a href="https://t.me/UNAETUoG" className="bg-white text-[#002D62] p-2 rounded-full transition-transform hover:scale-110">
+              <FaTelegram className="w-5 h-5" />
             </a>
           </div>
         </div>
