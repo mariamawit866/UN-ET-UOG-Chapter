@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import sdgImage from "../assets/1121.jpg";
-import arrowIcon from "../assets/green-curve-shape-arrow.svg";
+import sdgImage from "../assets/1.jpg";
+import arrowIcon from "../assets/1.jpg";
 
 const Section = () => {
   const cardVariants = {

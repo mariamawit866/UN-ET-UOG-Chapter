@@ -4,7 +4,7 @@ import img2 from "../assets/4675.jpg";
 import img3 from "../assets/16.jpg";
 import joinUsImg from "../assets/joinus.svg";
 import frameImg from "../assets/1.jpg";
-import arrow from "../assets/green-curve-shape-arrow.svg"
+import arrow from "../assets/1.jpg"
 import { FaStar, FaHeart, FaRocket } from "react-icons/fa"; // For decorative Icons
 import { BsArrowDownLeft, BsArrowUpRight } from "react-icons/bs"; // Zig-zag arrows
 

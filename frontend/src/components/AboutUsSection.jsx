@@ -1,7 +1,7 @@
 import React from "react";
-import img from '../assets/green-curve-shape-arrow.svg'
-import img1 from '../assets/swirl.svg'
-import img2 from '../assets/dart.svg'
+import img from '../assets/1.jpg'
+import img1 from '../assets/1.jpg'
+import img2 from '../assets/1.jpg'
 import { FaGlobe, FaBullseye, FaSearch } from "react-icons/fa";
 
 const HeroSection = () => {

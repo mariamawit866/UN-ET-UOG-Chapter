@@ -45,6 +45,26 @@ const allTeamMembers = [
     },
     image: '/images/bob-white.jpg',
   },
+  {
+    name: 'Bob White',
+    role: 'Technology Lead',
+    bio: 'Bob handles all technical aspects of our events and website.',
+    detailedInfo: 'Bob is a software engineer with a passion for event tech solutions, ensuring smooth virtual experiences.',
+    social: {
+      linkedin: 'https://www.linkedin.com/in/bobwhite',
+    },
+    image: '/images/bob-white.jpg',
+  },
+  {
+    name: 'Bob White',
+    role: 'Technology Lead',
+    bio: 'Bob handles all technical aspects of our events and website.',
+    detailedInfo: 'Bob is a software engineer with a passion for event tech solutions, ensuring smooth virtual experiences.',
+    social: {
+      linkedin: 'https://www.linkedin.com/in/bobwhite',
+    },
+    image: '/images/bob-white.jpg',
+  }
   // Add more team members here...
 ];
 
